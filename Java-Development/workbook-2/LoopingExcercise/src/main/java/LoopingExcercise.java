@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class LoopingExcercise {
+public class LoopingExcercise {
+    public static void main(String[] args) {
+
+    }
 }

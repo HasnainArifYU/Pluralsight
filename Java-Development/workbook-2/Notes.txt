@@ -1,0 +1,29 @@
+string.IndexOf("any char") // it gives u the FIRST position of that character in the string 
+
+string.LastIndexOf("your char') // it gives u the index position of the LAST instance of your character int the String.
+
+
+How Substrings function work
+string.substring(firstindex, last) // last is not necassary. These two can help u split a string. A split can also be used.
+
+
+ternary opertors.
+
+
+int strtonum = Integer.parseInt(String); //A function to convert string into integer
+//same with Float.parseFloat(String)
+//Double.parseDouble(String)
+
+
+String Builder
+
+
+Public static variable outside of methods for it to be used anywhere.
+
+ctrl alt L to allign your code. Learn intellij shortcuts they helpful
+
+if you have one line i               
+n front of an if statement like if (i--2) you don't need curly braces in front of the if statement
+
+ double HouseWorked = Double.parseDouble(splitter[2]);
+// same for int know these to split into parts after reading from a file 
