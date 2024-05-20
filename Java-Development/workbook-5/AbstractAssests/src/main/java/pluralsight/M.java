@@ -1,4 +1,4 @@
-package com.pluralsight;
+package pluralsight;
 
 import java.util.ArrayList;
 
@@ -34,7 +34,11 @@ public class M {
                 System.out.println("Year: " + vehicle.getYear());
             }
 
-            System.out.println(); // Blank line  readability
+            // Blank line  readability
+
         }
+        System.out.println("----------------------------------------");
+        Cash money = new Cash("DrugMoney", "2024", 5000.0);
+        System.out.println(money.getDescription()+ " " + money.getValue());
     }
 }
