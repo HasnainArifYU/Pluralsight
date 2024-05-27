@@ -23,7 +23,7 @@ public class Program {
 
 
         displayMatch(people, "Rodriguez");
-        calculateAverage(people);
+        calculateMinMaxAverage(people);
     }
 
     public static void displayMatch(List<Person> people, String name) {
@@ -34,7 +34,7 @@ public class Program {
         }
     }
 
-    public static void calculateAverage(List<Person> people) {
+    public static void calculateMinMaxAverage(List<Person> people) {
         double numOfPpl = 0;
         double total = 0;
         int oldest = 0;
