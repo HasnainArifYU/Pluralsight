@@ -45,6 +45,8 @@ ORDER BY
 p.ProductName;
 */
 
+
+/*
 SELECT
 p.ProductName,
 c.CategoryName
@@ -52,14 +54,13 @@ FROM
 products p
 JOIN
 categories c on p.SupplierID = c.CategoryID
-JOIN
-(
-SELECT
-max(UnitPrice) 
-from
-products) as Price
-ORDER BY 
-CategoryName;
+where
+max(UnitPrice);
+*/
+
+
+
+
 
 
 
