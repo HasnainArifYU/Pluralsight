@@ -2,14 +2,15 @@ package com.pluralsight;
 import java.sql.*;
 public class NP {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-
+        //Load the driver
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection connection; connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/", "root", "admin");
+        Connection connection;
+        connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/", "root", "admin");
 
         Statement statement = connection.createStatement();
 
-        String query = "SELECT * FROM northwind.products;";
+        String query = "SELECT ProductName FROM northwind.products;";
 
         ResultSet results = statement.executeQuery(query);
 
